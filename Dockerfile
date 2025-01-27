@@ -5,7 +5,7 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Copy the script into the container
-COPY convert_timestamp.py .
+COPY get_timestamp.py .
 
 # Command to run your script
 CMD ["python", "get_timestamp.py"]
