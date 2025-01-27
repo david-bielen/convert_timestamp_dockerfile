@@ -8,4 +8,4 @@ WORKDIR /app
 COPY convert_timestamp.py .
 
 # Command to run your script
-ENTRYPOINT ["python", "convert_timestamp.py"]
+CMD ["python", "get_timestamp.py"]
